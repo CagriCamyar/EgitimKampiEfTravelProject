@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace EgitimKampiEfProject
 {
-    internal static class Program
+    public static class Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace EgitimKampiEfProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLocation());
+            Application.Run(new FrmStatistic());
         }
     }
 }
